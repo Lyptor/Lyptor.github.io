@@ -1,0 +1,47 @@
+body{
+background-color: black;
+margin: 10px;
+}
+
+a{
+text-decoration:none;
+color: rgb(255, 255, 255);
+padding-bottom: 1px;
+}
+a:hover{
+text-decoration: overline underline;
+cursor: grab;
+color:blue;
+letter-spacing: 2px;
+padding-bottom: 6px;
+}
+h1{
+color: rgb(255, 255, 255);
+}
+
+div.d1{
+padding: 10px;
+
+border: 10px solid;
+border-image-slice: 1;
+border-width: 5px;
+border-image-source: linear-gradient(to left, #7930f8, #ff1dac);
+
+
+}
+div.obrazek{
+padding: 10px;
+text-align:center;
+border: 10px solid;
+
+}
+img{
+    
+    text-align:center;
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(to left, #7930f8, #ff1dac);
+    
+
+}
